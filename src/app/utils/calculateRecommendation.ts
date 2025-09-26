@@ -51,6 +51,6 @@ export function calculateRecommendation({ age, income, dependents, riskTolerance
     coverage,
     term,
     monthlyPremium,
-    explanation: `Based on your profile, we recommend ${recommendationType} insurance with $${coverage.toLocaleString()} coverage${term ? ` for ${term} years` : ''}. This provides ${Math.round(coverage / income)}x your annual income, ensuring comprehensive financial security for your dependents.`
+    explanation: `Based on your profile, we recommend ${recommendationType} insurance with $${ coverage.toLocaleString() } coverage${term ? ` for ${term} years` : ''}. This provides ${Math.round(coverage / income)}x your annual income, ensuring comprehensive financial security for your dependents.`
   };
 } 
